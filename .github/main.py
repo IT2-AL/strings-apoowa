@@ -10,6 +10,10 @@
 'program'[2:5]
 #6. Spojte string "Ahoj" a "Slunce"
 "ahoj" + "slunce"
-#7. Napiš program, který se zeptá na jméno, pak na příjmení a pak vypíše iniciály – první písmena zadaných jmen.
+#7. Napiš program, který se zeptá na jméno, pak na příjmení a pak vypíše iniciály – první písmena zadaných jmeno
+jmeno = input("zadejjmeno: ")
+prijmeni = input("zadej prijmeni: ")
 
+inicialy = jmeno[0].upper() + prijmeni[0].upper()
+print("inicialy jsou:", inicialy)
 #Výsledný commit - String_done
